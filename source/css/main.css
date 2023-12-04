@@ -271,68 +271,68 @@ a {
 #article-title {
 	border-bottom: 2px solid #ddd;
 }
-#article-content {
+.article-content {
 	padding: 10px 0;
 	border-bottom: 2px solid #ddd;
 }
-#article-content ol,
-#article-content ul {
+.article-content ol,
+.article-content ul {
 	padding-left: 40px;
 }
-#article-content li {
+.article-content li {
 	margin: 5px 0;
 }
-#article-content h1 {
+.article-content h1 {
 	line-height: 50px;
 	margin: 20px 0 15px;
 	font-size: 32px;
 	padding-bottom: 10px;
 	border-bottom: 2px solid #ddd;
 }
-#article-content h2 {
+.article-content h2 {
 	line-height: 45px;
 	margin: 15px 0 10px;
 	font-size: 25px;
 	padding-left: 10px;
 	border-bottom: 1px solid #ddd;
 }
-#article-content h3 {
+.article-content h3 {
 	line-height: 40px;
 	margin: 10px 0 5px;
 	font-size: 22px
 }
-#article-content h4,
-#article-content h5,
-#article-content h6 {
+.article-content h4,
+.article-content h5,
+.article-content h6 {
 	line-height: 35px;
 	margin: 5px 0 5px;
 }
-#article-content a:hover {
+.article-content a:hover {
 	border-bottom: 1px solid;
 }
-#article-content h1 a:hover{
+.article-content h1 a:hover{
 	border-bottom: none;
 }
-#article-content img {
+.article-content img {
 	max-width: 100%;
 	height: auto;
 }
-#article-content pre {
+.article-content pre {
 	font-size: 14px;
 	margin: 20px 0 15px;
 }
-#article-content blockquote{
+.article-content blockquote{
 	padding: 0 1em;
 	color:#6a737d;
 	border-left: .25em solid #dfe2e5;
 }
-#article-content p {
+.article-content p {
 	line-height: 20px;
 	margin-bottom: 10px;
 }
-#article-content ul code,
-#article-content ol code,
-#article-content p code {
+.article-content ul code,
+.article-content ol code,
+.article-content p code {
 	margin: 0 5px;
 	background-color: rgba(27,31,35,.05);
 	border-radius: 3px;

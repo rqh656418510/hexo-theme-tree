@@ -2,7 +2,7 @@ $(document).ready(function () {
   hljs.initHighlightingOnLoad();
   clickTreeDirectory();
   serachTree();
-  // pjaxLoad();
+  pjaxLoad();
   showArticleIndex();
   switchTreeOrIndex();
   scrollToTop();
@@ -69,7 +69,9 @@ function showArticleIndex() {
   $(".article-toc.active-toc").removeClass("active-toc");
   $("#tree .active").next().addClass('active-toc');
 
-  var labelList = $("#article-content").children();
+  var labelList = $(".article-content").children();
+  
+  if (labelList)
   var content = "<ul>";
   var max_level = 4;
   for (var i = 0; i < labelList.length; i++) {
